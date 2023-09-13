@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gab", "Gab\Gab.csproj", "{9B6DB4D6-023B-4B32-831E-14D67CDC9595}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B6DB4D6-023B-4B32-831E-14D67CDC9595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B6DB4D6-023B-4B32-831E-14D67CDC9595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B6DB4D6-023B-4B32-831E-14D67CDC9595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B6DB4D6-023B-4B32-831E-14D67CDC9595}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DE53940-AB29-4A13-8669-8494594CCA6C}
+	EndGlobalSection
+EndGlobal
