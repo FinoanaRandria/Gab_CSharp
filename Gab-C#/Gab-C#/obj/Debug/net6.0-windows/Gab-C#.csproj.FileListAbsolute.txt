@@ -1,0 +1,16 @@
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab-C#\Gab-C#\bin\Debug\net6.0-windows\Gab-C#.exe
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab-C#\Gab-C#\bin\Debug\net6.0-windows\Gab-C#.deps.json
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab-C#\Gab-C#\bin\Debug\net6.0-windows\Gab-C#.runtimeconfig.json
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab-C#\Gab-C#\bin\Debug\net6.0-windows\Gab-C#.dll
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab-C#\Gab-C#\bin\Debug\net6.0-windows\Gab-C#.pdb
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab-C#\Gab-C#\obj\Debug\net6.0-windows\Gab_C_.Form1.resources
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab-C#\Gab-C#\obj\Debug\net6.0-windows\Gab-C#.csproj.GenerateResource.cache
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab-C#\Gab-C#\obj\Debug\net6.0-windows\Gab-C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab-C#\Gab-C#\obj\Debug\net6.0-windows\Gab-C#.AssemblyInfoInputs.cache
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab-C#\Gab-C#\obj\Debug\net6.0-windows\Gab-C#.AssemblyInfo.cs
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab-C#\Gab-C#\obj\Debug\net6.0-windows\Gab-C#.csproj.CoreCompileInputs.cache
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab-C#\Gab-C#\obj\Debug\net6.0-windows\Gab-C#.dll
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab-C#\Gab-C#\obj\Debug\net6.0-windows\refint\Gab-C#.dll
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab-C#\Gab-C#\obj\Debug\net6.0-windows\Gab-C#.pdb
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab-C#\Gab-C#\obj\Debug\net6.0-windows\Gab-C#.genruntimeconfig.cache
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab-C#\Gab-C#\obj\Debug\net6.0-windows\ref\Gab-C#.dll
