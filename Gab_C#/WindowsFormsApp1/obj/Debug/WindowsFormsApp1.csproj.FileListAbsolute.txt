@@ -7,3 +7,15 @@ D:\C#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.Genera
 D:\C#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 D:\C#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 D:\C#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\gab\Gab_CSharp\Gab_C#\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\gab\Gab_CSharp\Gab_C#\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\gab\Gab_CSharp\Gab_C#\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\gab\Gab_CSharp\Gab_C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\gab\Gab_CSharp\Gab_C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.carte.resources
+D:\gab\Gab_CSharp\Gab_C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+D:\gab\Gab_CSharp\Gab_C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+D:\gab\Gab_CSharp\Gab_C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\gab\Gab_CSharp\Gab_C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\gab\Gab_CSharp\Gab_C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\gab\Gab_CSharp\Gab_C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\gab\Gab_CSharp\Gab_C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
