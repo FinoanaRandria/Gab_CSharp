@@ -54,7 +54,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(698, 229);
+            this.button1.Location = new System.Drawing.Point(713, 175);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(259, 37);
             this.button1.TabIndex = 7;
@@ -63,7 +63,7 @@
             // 
             // recu
             // 
-            this.recu.Location = new System.Drawing.Point(698, 361);
+            this.recu.Location = new System.Drawing.Point(713, 297);
             this.recu.Name = "recu";
             this.recu.Size = new System.Drawing.Size(259, 37);
             this.recu.TabIndex = 8;
@@ -75,7 +75,7 @@
             // 
             this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(698, 297);
+            this.dataGridView2.Location = new System.Drawing.Point(713, 239);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
@@ -85,7 +85,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(804, 307);
+            this.label1.Location = new System.Drawing.Point(811, 250);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(60, 16);
             this.label1.TabIndex = 10;
