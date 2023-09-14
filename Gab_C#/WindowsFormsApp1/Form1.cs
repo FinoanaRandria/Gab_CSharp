@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class carte : Form
     {
-        public Form1()
+        public carte()
         {
             InitializeComponent();
         }
@@ -33,6 +33,11 @@ namespace WindowsFormsApp1
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
 
         }
