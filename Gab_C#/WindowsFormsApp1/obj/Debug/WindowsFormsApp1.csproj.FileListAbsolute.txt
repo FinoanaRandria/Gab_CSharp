@@ -7,3 +7,14 @@ D:\C#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.Genera
 D:\C#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 D:\C#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 D:\C#\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab_C#\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab_C#\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab_C#\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab_C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab_C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.carte.resources
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab_C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab_C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab_C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab_C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab_C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\Gab_C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
