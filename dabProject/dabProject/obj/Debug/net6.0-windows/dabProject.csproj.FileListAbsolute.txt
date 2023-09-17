@@ -48,3 +48,12 @@ C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\dabProject\dabProject\obj\De
 C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\dabProject\dabProject\obj\Debug\net6.0-windows\dabProject.genruntimeconfig.cache
 C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\dabProject\dabProject\obj\Debug\net6.0-windows\ref\dabProject.dll
 C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\dabProject\dabProject\obj\Debug\net6.0-windows\dabProject.Properties.Resources.resources
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\dabProject\dabProject\obj\Debug\net6.0-windows\dabProject.UserControll.UserControl1.resources
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\dabProject\dabProject\obj\Debug\net6.0-windows\dabProject.UserControll.UserControl2.resources
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\dabProject\dabProject\obj\Debug\net6.0-windows\dabProject.Forms.CarteInformation.resources
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\dabProject\dabProject\obj\Debug\net6.0-windows\dabProject.Forms.InformationUtilisateur.resources
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\dabProject\dabProject\obj\Debug\net6.0-windows\dabProject.Forms.Acceuil.resources
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\dabProject\dabProject\obj\Debug\net6.0-windows\dabProject.Forms.ConsultationSolde.resources
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\dabProject\dabProject\obj\Debug\net6.0-windows\dabProject.Forms.Retrait.resources
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\dabProject\dabProject\obj\Debug\net6.0-windows\dabProject.Forms.HistoriqueDeTransaction.resources
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\dabProject\dabProject\obj\Debug\net6.0-windows\dabProject.Forms.PinValidation.resources

@@ -19,9 +19,7 @@
 
   <ItemGroup>
     <Folder Include="Database\" />
-    <Folder Include="Forms\" />
     <Folder Include="Logique\" />
-    <Folder Include="UserControll\" />
   </ItemGroup>
 
   <ItemGroup>
