@@ -139,10 +139,10 @@
         R/UbE3Qhwwh9ygl67sI3dg3/7kpXuDkVCv0H5WeT0rZgGSEAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="HisotriqueBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="HistoriqueBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        5wAAAOcB8BtYtQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAIiSURBVFhH7ZbP
+        4wAAAOMBD+bfpwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAIiSURBVFhH7ZbP
         LkNBFMa79wxtsLCxkBAWva2lEC+hwUKqOwRt5dbWS1h5CvVfWBFC4k9rgVcQy3G+2zNzp3OHO9WWBV/y
         S2rmnPm+O3c6lfiXiyautnqydf8c4DMPRySK+VNRXBQNCsc83L6yNX+bEMwOD0cUmjfg4faUqVdymrlk
         hqeb1PEA3uPmIJm9GebgPfO0OcRlSh0PMF73Ly3mkgsug/G+aR6S3+Oy1pWp+XsWY0mVyxDgImqsUEG/
@@ -220,7 +220,7 @@
         SQnRLRoxt8/P6uu/zWGHe2e8O3lCqR00sde/DkX5A4sVUXkndIirAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="carteInformationBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
         qAAAAKgBefSzxgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAOiSURBVEhLzVRr

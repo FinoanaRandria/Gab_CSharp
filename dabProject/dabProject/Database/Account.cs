@@ -18,6 +18,7 @@ namespace dabProject.Database
         public DateTime Expiration { get; set; }
         public bool Status { get; set; }
         public int? Tentative { get; set; }
+        public string? CarteNumber { get; set; }
 
         public virtual ICollection<Client> Clients { get; set; }
     }

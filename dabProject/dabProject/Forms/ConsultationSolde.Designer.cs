@@ -29,23 +29,80 @@
         private void InitializeComponent()
         {
             label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
+            SetDate = new Label();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 32F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(150, 204);
+            label1.Location = new Point(12, 46);
             label1.Name = "label1";
             label1.Size = new Size(481, 72);
             label1.TabIndex = 2;
             label1.Text = "Consultation Solde";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(68, 191);
+            label2.Name = "label2";
+            label2.Size = new Size(165, 20);
+            label2.TabIndex = 4;
+            label2.Text = "Solde total du compte :";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(258, 191);
+            label3.Name = "label3";
+            label3.Size = new Size(17, 20);
+            label3.TabIndex = 5;
+            label3.Text = "0";
+            label3.Click += label3_Click;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(361, 191);
+            label4.Name = "label4";
+            label4.Size = new Size(22, 20);
+            label4.TabIndex = 7;
+            label4.Text = "ar";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(68, 145);
+            label5.Name = "label5";
+            label5.Size = new Size(48, 20);
+            label5.TabIndex = 8;
+            label5.Text = "Date :";
+            // 
+            // SetDate
+            // 
+            SetDate.AutoSize = true;
+            SetDate.Location = new Point(122, 145);
+            SetDate.Name = "SetDate";
+            SetDate.Size = new Size(173, 20);
+            SetDate.TabIndex = 9;
+            SetDate.Text = "lundi 17 septembre 2023";
+            SetDate.Paint += Set_Date;
             // 
             // ConsultationSolde
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(743, 685);
+            Controls.Add(SetDate);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "ConsultationSolde";
@@ -57,5 +114,10 @@
         #endregion
 
         private Label label1;
+        private Label label2;
+        private Label label3;
+        private Label label4;
+        private Label label5;
+        private Label SetDate;
     }
 }

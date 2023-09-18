@@ -32,27 +32,27 @@
             MenuPanel = new Panel();
             button4 = new Button();
             SidePanel = new Panel();
-            HisotriqueBtn = new Button();
+            HistoriqueBtn = new Button();
             RetraitBtn = new Button();
             ConsultationSoldeBtn = new Button();
             InformationUtilisateurBtn = new Button();
-            button2 = new Button();
+            carteInformationBtn = new Button();
             AcceuilBtn = new Button();
             colorPanel = new Panel();
             ColorPanel1 = new Panel();
             NumberPanel = new Panel();
             button3 = new Button();
             button1 = new Button();
-            button14 = new Button();
-            button10 = new Button();
-            button9 = new Button();
-            button8 = new Button();
-            button7 = new Button();
-            button6 = new Button();
-            button5 = new Button();
-            button11 = new Button();
-            button12 = new Button();
-            button13 = new Button();
+            btn9 = new Button();
+            btn8 = new Button();
+            btn7 = new Button();
+            btn0 = new Button();
+            btn6 = new Button();
+            btm5 = new Button();
+            btn4 = new Button();
+            btn1 = new Button();
+            btn2 = new Button();
+            btn3 = new Button();
             MainPanel = new Panel();
             MenuPanel.SuspendLayout();
             NumberPanel.SuspendLayout();
@@ -63,11 +63,11 @@
             MenuPanel.BackColor = Color.FromArgb(64, 64, 64);
             MenuPanel.Controls.Add(button4);
             MenuPanel.Controls.Add(SidePanel);
-            MenuPanel.Controls.Add(HisotriqueBtn);
+            MenuPanel.Controls.Add(HistoriqueBtn);
             MenuPanel.Controls.Add(RetraitBtn);
             MenuPanel.Controls.Add(ConsultationSoldeBtn);
             MenuPanel.Controls.Add(InformationUtilisateurBtn);
-            MenuPanel.Controls.Add(button2);
+            MenuPanel.Controls.Add(carteInformationBtn);
             MenuPanel.Controls.Add(AcceuilBtn);
             MenuPanel.Dock = DockStyle.Left;
             MenuPanel.Location = new Point(0, 0);
@@ -102,22 +102,22 @@
             SidePanel.Size = new Size(11, 68);
             SidePanel.TabIndex = 6;
             // 
-            // HisotriqueBtn
+            // HistoriqueBtn
             // 
-            HisotriqueBtn.FlatAppearance.BorderSize = 0;
-            HisotriqueBtn.FlatStyle = FlatStyle.Flat;
-            HisotriqueBtn.ForeColor = Color.Snow;
-            HisotriqueBtn.Image = (Image)resources.GetObject("HisotriqueBtn.Image");
-            HisotriqueBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            HisotriqueBtn.Location = new Point(24, 524);
-            HisotriqueBtn.Margin = new Padding(3, 4, 3, 4);
-            HisotriqueBtn.Name = "HisotriqueBtn";
-            HisotriqueBtn.Size = new Size(285, 77);
-            HisotriqueBtn.TabIndex = 5;
-            HisotriqueBtn.Text = "  Historique De Transaction ";
-            HisotriqueBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
-            HisotriqueBtn.UseVisualStyleBackColor = true;
-            HisotriqueBtn.Click += HisotriqueBtn_Click;
+            HistoriqueBtn.FlatAppearance.BorderSize = 0;
+            HistoriqueBtn.FlatStyle = FlatStyle.Flat;
+            HistoriqueBtn.ForeColor = Color.Snow;
+            HistoriqueBtn.Image = (Image)resources.GetObject("HistoriqueBtn.Image");
+            HistoriqueBtn.ImageAlign = ContentAlignment.MiddleLeft;
+            HistoriqueBtn.Location = new Point(24, 524);
+            HistoriqueBtn.Margin = new Padding(3, 4, 3, 4);
+            HistoriqueBtn.Name = "HistoriqueBtn";
+            HistoriqueBtn.Size = new Size(285, 77);
+            HistoriqueBtn.TabIndex = 5;
+            HistoriqueBtn.Text = "  Historique De Transaction ";
+            HistoriqueBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
+            HistoriqueBtn.UseVisualStyleBackColor = true;
+            HistoriqueBtn.Click += HisotriqueBtn_Click;
             // 
             // RetraitBtn
             // 
@@ -170,22 +170,22 @@
             InformationUtilisateurBtn.UseVisualStyleBackColor = true;
             InformationUtilisateurBtn.Click += InformationUtilisateurBtn_Click;
             // 
-            // button2
+            // carteInformationBtn
             // 
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.ForeColor = Color.Snow;
-            button2.Image = (Image)resources.GetObject("button2.Image");
-            button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(23, 172);
-            button2.Margin = new Padding(3, 4, 3, 4);
-            button2.Name = "button2";
-            button2.Size = new Size(285, 77);
-            button2.TabIndex = 1;
-            button2.Text = "    Carte Information";
-            button2.TextImageRelation = TextImageRelation.ImageBeforeText;
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            carteInformationBtn.FlatAppearance.BorderSize = 0;
+            carteInformationBtn.FlatStyle = FlatStyle.Flat;
+            carteInformationBtn.ForeColor = Color.Snow;
+            carteInformationBtn.Image = (Image)resources.GetObject("carteInformationBtn.Image");
+            carteInformationBtn.ImageAlign = ContentAlignment.MiddleLeft;
+            carteInformationBtn.Location = new Point(23, 172);
+            carteInformationBtn.Margin = new Padding(3, 4, 3, 4);
+            carteInformationBtn.Name = "carteInformationBtn";
+            carteInformationBtn.Size = new Size(285, 77);
+            carteInformationBtn.TabIndex = 1;
+            carteInformationBtn.Text = "    Carte Information";
+            carteInformationBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
+            carteInformationBtn.UseVisualStyleBackColor = true;
+            carteInformationBtn.Click += button2_Click;
             // 
             // AcceuilBtn
             // 
@@ -229,16 +229,16 @@
             NumberPanel.BackColor = Color.Firebrick;
             NumberPanel.Controls.Add(button3);
             NumberPanel.Controls.Add(button1);
-            NumberPanel.Controls.Add(button14);
-            NumberPanel.Controls.Add(button10);
-            NumberPanel.Controls.Add(button9);
-            NumberPanel.Controls.Add(button8);
-            NumberPanel.Controls.Add(button7);
-            NumberPanel.Controls.Add(button6);
-            NumberPanel.Controls.Add(button5);
-            NumberPanel.Controls.Add(button11);
-            NumberPanel.Controls.Add(button12);
-            NumberPanel.Controls.Add(button13);
+            NumberPanel.Controls.Add(btn9);
+            NumberPanel.Controls.Add(btn8);
+            NumberPanel.Controls.Add(btn7);
+            NumberPanel.Controls.Add(btn0);
+            NumberPanel.Controls.Add(btn6);
+            NumberPanel.Controls.Add(btm5);
+            NumberPanel.Controls.Add(btn4);
+            NumberPanel.Controls.Add(btn1);
+            NumberPanel.Controls.Add(btn2);
+            NumberPanel.Controls.Add(btn3);
             NumberPanel.Dock = DockStyle.Right;
             NumberPanel.Location = new Point(1131, 0);
             NumberPanel.Margin = new Padding(3, 4, 3, 4);
@@ -264,105 +264,115 @@
             button1.Text = "Annuler";
             button1.UseVisualStyleBackColor = true;
             // 
-            // button14
+            // btn9
             // 
-            button14.Location = new Point(215, 433);
-            button14.Margin = new Padding(3, 4, 3, 4);
-            button14.Name = "button14";
-            button14.Size = new Size(66, 45);
-            button14.TabIndex = 25;
-            button14.Text = "9";
-            button14.UseVisualStyleBackColor = true;
+            btn9.Location = new Point(215, 433);
+            btn9.Margin = new Padding(3, 4, 3, 4);
+            btn9.Name = "btn9";
+            btn9.Size = new Size(66, 45);
+            btn9.TabIndex = 25;
+            btn9.Text = "9";
+            btn9.UseVisualStyleBackColor = true;
+            btn9.Click += btn9_Click;
             // 
-            // button10
+            // btn8
             // 
-            button10.Location = new Point(142, 433);
-            button10.Margin = new Padding(3, 4, 3, 4);
-            button10.Name = "button10";
-            button10.Size = new Size(66, 45);
-            button10.TabIndex = 24;
-            button10.Text = "8";
-            button10.UseVisualStyleBackColor = true;
+            btn8.Location = new Point(142, 433);
+            btn8.Margin = new Padding(3, 4, 3, 4);
+            btn8.Name = "btn8";
+            btn8.Size = new Size(66, 45);
+            btn8.TabIndex = 24;
+            btn8.Text = "8";
+            btn8.UseVisualStyleBackColor = true;
+            btn8.Click += btn8_Click;
             // 
-            // button9
+            // btn7
             // 
-            button9.Location = new Point(69, 433);
-            button9.Margin = new Padding(3, 4, 3, 4);
-            button9.Name = "button9";
-            button9.Size = new Size(66, 45);
-            button9.TabIndex = 23;
-            button9.Text = "7";
-            button9.UseVisualStyleBackColor = true;
+            btn7.Location = new Point(69, 433);
+            btn7.Margin = new Padding(3, 4, 3, 4);
+            btn7.Name = "btn7";
+            btn7.Size = new Size(66, 45);
+            btn7.TabIndex = 23;
+            btn7.Text = "7";
+            btn7.UseVisualStyleBackColor = true;
+            btn7.Click += btn7_Click;
             // 
-            // button8
+            // btn0
             // 
-            button8.Location = new Point(142, 593);
-            button8.Margin = new Padding(3, 4, 3, 4);
-            button8.Name = "button8";
-            button8.Size = new Size(66, 45);
-            button8.TabIndex = 22;
-            button8.Text = "0";
-            button8.UseVisualStyleBackColor = true;
+            btn0.Location = new Point(142, 593);
+            btn0.Margin = new Padding(3, 4, 3, 4);
+            btn0.Name = "btn0";
+            btn0.Size = new Size(66, 45);
+            btn0.TabIndex = 22;
+            btn0.Text = "0";
+            btn0.UseVisualStyleBackColor = true;
+            btn0.Click += btn0_Click;
             // 
-            // button7
+            // btn6
             // 
-            button7.Location = new Point(215, 486);
-            button7.Margin = new Padding(3, 4, 3, 4);
-            button7.Name = "button7";
-            button7.Size = new Size(66, 45);
-            button7.TabIndex = 21;
-            button7.Text = "6";
-            button7.UseVisualStyleBackColor = true;
+            btn6.Location = new Point(215, 486);
+            btn6.Margin = new Padding(3, 4, 3, 4);
+            btn6.Name = "btn6";
+            btn6.Size = new Size(66, 45);
+            btn6.TabIndex = 21;
+            btn6.Text = "6";
+            btn6.UseVisualStyleBackColor = true;
+            btn6.Click += btn6_Click;
             // 
-            // button6
+            // btm5
             // 
-            button6.Location = new Point(142, 486);
-            button6.Margin = new Padding(3, 4, 3, 4);
-            button6.Name = "button6";
-            button6.Size = new Size(66, 45);
-            button6.TabIndex = 20;
-            button6.Text = "5";
-            button6.UseVisualStyleBackColor = true;
+            btm5.Location = new Point(142, 486);
+            btm5.Margin = new Padding(3, 4, 3, 4);
+            btm5.Name = "btm5";
+            btm5.Size = new Size(66, 45);
+            btm5.TabIndex = 20;
+            btm5.Text = "5";
+            btm5.UseVisualStyleBackColor = true;
+            btm5.Click += btn5_Click;
             // 
-            // button5
+            // btn4
             // 
-            button5.Location = new Point(69, 486);
-            button5.Margin = new Padding(3, 4, 3, 4);
-            button5.Name = "button5";
-            button5.Size = new Size(66, 45);
-            button5.TabIndex = 19;
-            button5.Text = "4";
-            button5.UseVisualStyleBackColor = true;
+            btn4.Location = new Point(69, 486);
+            btn4.Margin = new Padding(3, 4, 3, 4);
+            btn4.Name = "btn4";
+            btn4.Size = new Size(66, 45);
+            btn4.TabIndex = 19;
+            btn4.Text = "4";
+            btn4.UseVisualStyleBackColor = true;
+            btn4.Click += btn4_Click;
             // 
-            // button11
+            // btn1
             // 
-            button11.Location = new Point(69, 539);
-            button11.Margin = new Padding(3, 4, 3, 4);
-            button11.Name = "button11";
-            button11.Size = new Size(66, 45);
-            button11.TabIndex = 18;
-            button11.Text = "1";
-            button11.UseVisualStyleBackColor = true;
+            btn1.Location = new Point(69, 539);
+            btn1.Margin = new Padding(3, 4, 3, 4);
+            btn1.Name = "btn1";
+            btn1.Size = new Size(66, 45);
+            btn1.TabIndex = 18;
+            btn1.Text = "1";
+            btn1.UseVisualStyleBackColor = true;
+            btn1.Click += btn1_Click;
             // 
-            // button12
+            // btn2
             // 
-            button12.Location = new Point(142, 539);
-            button12.Margin = new Padding(3, 4, 3, 4);
-            button12.Name = "button12";
-            button12.Size = new Size(66, 45);
-            button12.TabIndex = 17;
-            button12.Text = "2";
-            button12.UseVisualStyleBackColor = true;
+            btn2.Location = new Point(142, 539);
+            btn2.Margin = new Padding(3, 4, 3, 4);
+            btn2.Name = "btn2";
+            btn2.Size = new Size(66, 45);
+            btn2.TabIndex = 17;
+            btn2.Text = "2";
+            btn2.UseVisualStyleBackColor = true;
+            btn2.Click += btn2_Click;
             // 
-            // button13
+            // btn3
             // 
-            button13.Location = new Point(215, 539);
-            button13.Margin = new Padding(3, 4, 3, 4);
-            button13.Name = "button13";
-            button13.Size = new Size(66, 45);
-            button13.TabIndex = 16;
-            button13.Text = "3";
-            button13.UseVisualStyleBackColor = true;
+            btn3.Location = new Point(215, 539);
+            btn3.Margin = new Padding(3, 4, 3, 4);
+            btn3.Name = "btn3";
+            btn3.Size = new Size(66, 45);
+            btn3.TabIndex = 16;
+            btn3.Text = "3";
+            btn3.UseVisualStyleBackColor = true;
+            btn3.Click += btn3_Click;
             // 
             // MainPanel
             // 
@@ -397,20 +407,20 @@
         private Button AcceuilBtn;
         private Panel ColorPanel1;
         private Panel NumberPanel;
-        private Button button13;
-        private Button button14;
-        private Button button10;
-        private Button button9;
-        private Button button8;
-        private Button button7;
-        private Button button6;
-        private Button button5;
-        private Button button11;
-        private Button button12;
+        private Button btn3;
+        private Button btn9;
+        private Button btn8;
+        private Button btn7;
+        private Button btn0;
+        private Button btn6;
+        private Button btm5;
+        private Button btn4;
+        private Button btn1;
+        private Button btn2;
         private Button InformationUtilisateurBtn;
-        private Button button2;
+        private Button carteInformationBtn;
         private Button ConsultationSoldeBtn;
-        private Button HisotriqueBtn;
+        private Button HistoriqueBtn;
         private Button RetraitBtn;
         private Panel SidePanel;
         private Panel MainPanel;

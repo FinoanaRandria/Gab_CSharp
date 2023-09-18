@@ -29,23 +29,34 @@
         private void InitializeComponent()
         {
             label1 = new Label();
+            label2 = new Label();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 32F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(36, 145);
+            label1.Location = new Point(12, 60);
             label1.Name = "label1";
             label1.Size = new Size(636, 72);
             label1.TabIndex = 1;
             label1.Text = "Historique de Transaction";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(33, 182);
+            label2.Name = "label2";
+            label2.Size = new Size(208, 20);
+            label2.TabIndex = 2;
+            label2.Text = "Liste des dernieres transaction";
             // 
             // HistoriqueDeTransaction
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(725, 638);
+            Controls.Add(label2);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "HistoriqueDeTransaction";
@@ -57,5 +68,6 @@
         #endregion
 
         private Label label1;
+        private Label label2;
     }
 }

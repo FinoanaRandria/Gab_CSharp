@@ -16,5 +16,15 @@ namespace dabProject.Forms
         {
             InitializeComponent();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Set_Date(object sender, PaintEventArgs e)
+        {
+            this.SetDate.Text = DateTime.Now.ToString("dddd dd MMMM yyyy");
+        }
     }
 }
