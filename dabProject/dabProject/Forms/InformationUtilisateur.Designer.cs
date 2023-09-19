@@ -51,7 +51,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("SimSun-ExtB", 31.2F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(232, 212);
+            label1.Location = new Point(234, 257);
             label1.Name = "label1";
             label1.Size = new Size(292, 52);
             label1.TabIndex = 1;
@@ -60,7 +60,7 @@
             // CIN
             // 
             CIN.AutoSize = true;
-            CIN.Location = new Point(455, 392);
+            CIN.Location = new Point(454, 429);
             CIN.Name = "CIN";
             CIN.Size = new Size(58, 20);
             CIN.TabIndex = 18;
@@ -69,7 +69,7 @@
             // Addresse
             // 
             Addresse.AutoSize = true;
-            Addresse.Location = new Point(455, 361);
+            Addresse.Location = new Point(454, 398);
             Addresse.Name = "Addresse";
             Addresse.Size = new Size(58, 20);
             Addresse.TabIndex = 17;
@@ -78,7 +78,7 @@
             // Prenom
             // 
             Prenom.AutoSize = true;
-            Prenom.Location = new Point(455, 333);
+            Prenom.Location = new Point(454, 370);
             Prenom.Name = "Prenom";
             Prenom.Size = new Size(50, 20);
             Prenom.TabIndex = 16;
@@ -87,7 +87,7 @@
             // Nom
             // 
             Nom.AutoSize = true;
-            Nom.Location = new Point(455, 301);
+            Nom.Location = new Point(454, 338);
             Nom.Name = "Nom";
             Nom.Size = new Size(50, 20);
             Nom.TabIndex = 15;
@@ -98,7 +98,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(237, 354);
+            label6.Location = new Point(236, 391);
             label6.Name = "label6";
             label6.Size = new Size(89, 28);
             label6.TabIndex = 14;
@@ -108,7 +108,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(237, 385);
+            label5.Location = new Point(236, 422);
             label5.Name = "label5";
             label5.Size = new Size(53, 28);
             label5.TabIndex = 13;
@@ -118,7 +118,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(237, 326);
+            label4.Location = new Point(236, 363);
             label4.Name = "label4";
             label4.RightToLeft = RightToLeft.No;
             label4.Size = new Size(89, 28);
@@ -129,7 +129,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(237, 294);
+            label2.Location = new Point(236, 331);
             label2.Name = "label2";
             label2.Size = new Size(65, 28);
             label2.TabIndex = 11;
@@ -138,7 +138,7 @@
             // Expiration
             // 
             Expiration.AutoSize = true;
-            Expiration.Location = new Point(455, 421);
+            Expiration.Location = new Point(454, 458);
             Expiration.Name = "Expiration";
             Expiration.Size = new Size(50, 20);
             Expiration.TabIndex = 20;
@@ -148,7 +148,7 @@
             // 
             dateDexpiration.AutoSize = true;
             dateDexpiration.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            dateDexpiration.Location = new Point(237, 413);
+            dateDexpiration.Location = new Point(236, 450);
             dateDexpiration.Name = "dateDexpiration";
             dateDexpiration.Size = new Size(172, 28);
             dateDexpiration.TabIndex = 19;
@@ -157,7 +157,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(315, 80);
+            pictureBox1.Location = new Point(314, 117);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(131, 138);
             pictureBox1.TabIndex = 21;

@@ -39,6 +39,12 @@ namespace dabProject.Forms
                         if (_temp_account.Tentative == 0)
                         {
                             Console.WriteLine("your Account has been Blocked");
+                            MessageBox.Show(
+                                    "Votre compte a ete bloque suite a plusieurs tentatives incorrect !",
+                                    "Compte bloque",
+                                    MessageBoxButtons.OK,
+                                    MessageBoxIcon.Error
+                                );
                         }
                         else
                         {
@@ -46,11 +52,15 @@ namespace dabProject.Forms
                             if (_temp_account_verified != null)
                             {
                                 Form1.CurrentUser_isLogged = true;
+                                _temp_account.Tentative = 3;
+                                _context.SaveChanges();
                                 this.callback();
                             }
                             else
                             {
                                 Console.WriteLine("User Pin is incorrect");
+                                _temp_account.Tentative -= 1;
+                                _context.SaveChanges();
                             }
                         }
                     }

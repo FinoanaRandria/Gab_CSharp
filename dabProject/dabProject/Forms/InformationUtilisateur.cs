@@ -22,7 +22,7 @@ namespace dabProject.Forms
         private void label7_Click(object sender, EventArgs e)
         {
 
-           
+
 
 
 
@@ -30,7 +30,7 @@ namespace dabProject.Forms
         }
 
         private void InformationUtilisateur_Load(object sender, EventArgs e)
-             
+
 
         {
 

@@ -50,10 +50,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 32F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(249, 275);
+            label1.Font = new Font("SimSun-ExtB", 31.8000011F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(253, 275);
             label1.Name = "label1";
-            label1.Size = new Size(245, 72);
+            label1.Size = new Size(247, 54);
             label1.TabIndex = 0;
             label1.Text = "Ma Carte";
             label1.Click += label1_Click;
@@ -62,7 +62,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(184, 407);
+            label2.Location = new Point(199, 407);
             label2.Name = "label2";
             label2.Size = new Size(67, 28);
             label2.TabIndex = 1;
@@ -72,7 +72,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(184, 439);
+            label4.Location = new Point(199, 439);
             label4.Name = "label4";
             label4.RightToLeft = RightToLeft.No;
             label4.Size = new Size(74, 28);
@@ -83,7 +83,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(184, 511);
+            label5.Location = new Point(199, 511);
             label5.Name = "label5";
             label5.Size = new Size(172, 28);
             label5.TabIndex = 4;
@@ -93,7 +93,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(184, 472);
+            label6.Location = new Point(199, 472);
             label6.Name = "label6";
             label6.Size = new Size(165, 28);
             label6.TabIndex = 5;
@@ -103,7 +103,7 @@
             // Label
             // 
             Label.AutoSize = true;
-            Label.Location = new Point(428, 415);
+            Label.Location = new Point(443, 415);
             Label.Name = "Label";
             Label.Size = new Size(50, 20);
             Label.TabIndex = 6;
@@ -113,7 +113,7 @@
             // Status
             // 
             Status.AutoSize = true;
-            Status.Location = new Point(428, 447);
+            Status.Location = new Point(443, 447);
             Status.Name = "Status";
             Status.Size = new Size(50, 20);
             Status.TabIndex = 8;
@@ -122,7 +122,7 @@
             // Creation
             // 
             Creation.AutoSize = true;
-            Creation.Location = new Point(428, 480);
+            Creation.Location = new Point(443, 480);
             Creation.Name = "Creation";
             Creation.Size = new Size(58, 20);
             Creation.TabIndex = 9;
@@ -131,7 +131,7 @@
             // Expiration
             // 
             Expiration.AutoSize = true;
-            Expiration.Location = new Point(428, 519);
+            Expiration.Location = new Point(443, 519);
             Expiration.Name = "Expiration";
             Expiration.Size = new Size(58, 20);
             Expiration.TabIndex = 10;
@@ -140,7 +140,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(293, 114);
+            pictureBox1.Location = new Point(306, 123);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(178, 136);
             pictureBox1.TabIndex = 11;
@@ -150,7 +150,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(184, 369);
+            label3.Location = new Point(199, 369);
             label3.Name = "label3";
             label3.Size = new Size(112, 28);
             label3.TabIndex = 12;
@@ -159,7 +159,7 @@
             // numCarte
             // 
             numCarte.AutoSize = true;
-            numCarte.Location = new Point(428, 377);
+            numCarte.Location = new Point(443, 377);
             numCarte.Name = "numCarte";
             numCarte.Size = new Size(50, 20);
             numCarte.TabIndex = 13;
