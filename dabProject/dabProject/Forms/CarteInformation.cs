@@ -44,5 +44,10 @@ namespace dabProject.Forms
 
             }
         }
+
+        private void Label_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

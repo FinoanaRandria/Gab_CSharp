@@ -30,7 +30,7 @@
         {
             label1 = new Label();
             label2 = new Label();
-            label3 = new Label();
+            solde = new Label();
             label4 = new Label();
             label5 = new Label();
             SetDate = new Label();
@@ -55,15 +55,15 @@
             label2.TabIndex = 4;
             label2.Text = "Solde total du compte :";
             // 
-            // label3
+            // solde
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(258, 191);
-            label3.Name = "label3";
-            label3.Size = new Size(17, 20);
-            label3.TabIndex = 5;
-            label3.Text = "0";
-            label3.Click += label3_Click;
+            solde.AutoSize = true;
+            solde.Location = new Point(256, 191);
+            solde.Name = "solde";
+            solde.Size = new Size(17, 20);
+            solde.TabIndex = 5;
+            solde.Text = "0";
+            solde.Click += label3_Click;
             // 
             // label4
             // 
@@ -101,12 +101,13 @@
             Controls.Add(SetDate);
             Controls.Add(label5);
             Controls.Add(label4);
-            Controls.Add(label3);
+            Controls.Add(solde);
             Controls.Add(label2);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "ConsultationSolde";
             Text = "ConsultationSolde";
+            Load += ConsultationSolde_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -115,7 +116,7 @@
 
         private Label label1;
         private Label label2;
-        private Label label3;
+        private Label solde;
         private Label label4;
         private Label label5;
         private Label SetDate;

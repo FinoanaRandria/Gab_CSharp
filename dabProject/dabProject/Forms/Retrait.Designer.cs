@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            button1 = new Button();
+            retraitBtn = new Button();
             label2 = new Label();
-            textBox1 = new TextBox();
+            sommeInput = new TextBox();
             SuspendLayout();
             // 
             // label1
@@ -44,14 +44,15 @@
             label1.TabIndex = 2;
             label1.Text = "Retrait";
             // 
-            // button1
+            // retraitBtn
             // 
-            button1.Location = new Point(126, 283);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 9;
-            button1.Text = "Retirer";
-            button1.UseVisualStyleBackColor = true;
+            retraitBtn.Location = new Point(126, 283);
+            retraitBtn.Name = "retraitBtn";
+            retraitBtn.Size = new Size(94, 29);
+            retraitBtn.TabIndex = 9;
+            retraitBtn.Text = "Retirer";
+            retraitBtn.UseVisualStyleBackColor = true;
+            retraitBtn.Click += button1_Click;
             // 
             // label2
             // 
@@ -62,25 +63,26 @@
             label2.TabIndex = 8;
             label2.Text = "Entrer la somme a retirer sur votre compte";
             // 
-            // textBox1
+            // sommeInput
             // 
-            textBox1.Location = new Point(126, 237);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(343, 27);
-            textBox1.TabIndex = 7;
+            sommeInput.Location = new Point(126, 237);
+            sommeInput.Name = "sommeInput";
+            sommeInput.Size = new Size(235, 27);
+            sommeInput.TabIndex = 7;
             // 
             // Retrait
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(761, 732);
-            Controls.Add(button1);
+            Controls.Add(retraitBtn);
             Controls.Add(label2);
-            Controls.Add(textBox1);
+            Controls.Add(sommeInput);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Retrait";
             Text = "Retrait";
+            Load += Retrait_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -88,8 +90,8 @@
         #endregion
 
         private Label label1;
-        private Button button1;
+        private Button retraitBtn;
         private Label label2;
-        private TextBox textBox1;
+        private TextBox sommeInput;
     }
 }

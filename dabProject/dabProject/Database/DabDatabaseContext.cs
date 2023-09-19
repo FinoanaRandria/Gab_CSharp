@@ -18,13 +18,14 @@ namespace dabProject.Database
 
         public virtual DbSet<Account> Accounts { get; set; } = null!;
         public virtual DbSet<Client> Clients { get; set; } = null!;
+        public virtual DbSet<Transaction> Transactions { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("data source=DESKTOP-9AU0B3O\\SQLEXPRESS;initial catalog=DabDatabase;trusted_connection=true");
+                optionsBuilder.UseSqlServer("Server=.\\SQLExpress;Database=DabDatabase;Integrated Security=True;TrustServerCertificate=true;Trusted_Connection=True");
             }
         }
 
@@ -40,6 +41,8 @@ namespace dabProject.Database
                     .HasMaxLength(16)
                     .HasColumnName("Carte_number")
                     .IsFixedLength();
+
+                entity.Property(e => e.ClientId).HasColumnName("ClientID");
 
                 entity.Property(e => e.Creation)
                     .HasColumnType("datetime")
@@ -59,6 +62,11 @@ namespace dabProject.Database
                     .IsFixedLength();
 
                 entity.Property(e => e.Tentative).HasDefaultValueSql("((3))");
+
+                entity.HasOne(d => d.Client)
+                    .WithMany(p => p.Accounts)
+                    .HasForeignKey(d => d.ClientId)
+                    .HasConstraintName("FK_Account_Client");
             });
 
             modelBuilder.Entity<Client>(entity =>
@@ -67,11 +75,7 @@ namespace dabProject.Database
 
                 entity.ToTable("Client");
 
-                entity.Property(e => e.ClentId)
-                    .ValueGeneratedNever()
-                    .HasColumnName("ClentID");
-
-                entity.Property(e => e.AccountId).HasColumnName("AccountID");
+                entity.Property(e => e.ClentId).HasColumnName("ClentID");
 
                 entity.Property(e => e.Adresse)
                     .HasMaxLength(50)
@@ -89,12 +93,25 @@ namespace dabProject.Database
                 entity.Property(e => e.Prenom)
                     .HasMaxLength(50)
                     .IsUnicode(false);
+            });
+
+            modelBuilder.Entity<Transaction>(entity =>
+            {
+                entity.ToTable("Transaction");
+
+                entity.Property(e => e.TransactionId).HasColumnName("TransactionID");
+
+                entity.Property(e => e.AccountId).HasColumnName("AccountID");
+
+                entity.Property(e => e.DateDeLaTransaction).HasColumnType("datetime");
+
+                entity.Property(e => e.Type).HasMaxLength(50);
 
                 entity.HasOne(d => d.Account)
-                    .WithMany(p => p.Clients)
+                    .WithMany(p => p.Transactions)
                     .HasForeignKey(d => d.AccountId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_Client_Account");
+                    .HasConstraintName("FK_Transaction_Account");
             });
 
             OnModelCreatingPartial(modelBuilder);

@@ -61,6 +61,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "HistoriqueDeTransaction";
             Text = "HistoriqueDeTransaction";
+            Load += HistoriqueDeTransaction_Load;
             ResumeLayout(false);
             PerformLayout();
         }

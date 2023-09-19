@@ -54,13 +54,18 @@
             btn2 = new Button();
             btn3 = new Button();
             MainPanel = new Panel();
+            pictureBox1 = new PictureBox();
+            panel1 = new Panel();
             MenuPanel.SuspendLayout();
             NumberPanel.SuspendLayout();
+            MainPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // MenuPanel
             // 
             MenuPanel.BackColor = Color.FromArgb(64, 64, 64);
+            MenuPanel.Controls.Add(pictureBox1);
             MenuPanel.Controls.Add(button4);
             MenuPanel.Controls.Add(SidePanel);
             MenuPanel.Controls.Add(HistoriqueBtn);
@@ -206,7 +211,7 @@
             // 
             // colorPanel
             // 
-            colorPanel.BackColor = Color.Firebrick;
+            colorPanel.BackColor = Color.DarkSlateGray;
             colorPanel.Dock = DockStyle.Left;
             colorPanel.Location = new Point(314, 0);
             colorPanel.Margin = new Padding(3, 4, 3, 4);
@@ -216,7 +221,7 @@
             // 
             // ColorPanel1
             // 
-            ColorPanel1.BackColor = Color.Firebrick;
+            ColorPanel1.BackColor = Color.DarkSlateGray;
             ColorPanel1.Dock = DockStyle.Bottom;
             ColorPanel1.Location = new Point(370, 732);
             ColorPanel1.Margin = new Padding(3, 4, 3, 4);
@@ -226,7 +231,7 @@
             // 
             // NumberPanel
             // 
-            NumberPanel.BackColor = Color.Firebrick;
+            NumberPanel.BackColor = Color.DarkSlateGray;
             NumberPanel.Controls.Add(button3);
             NumberPanel.Controls.Add(button1);
             NumberPanel.Controls.Add(btn9);
@@ -376,11 +381,30 @@
             // 
             // MainPanel
             // 
+            MainPanel.Controls.Add(panel1);
             MainPanel.Dock = DockStyle.Fill;
             MainPanel.Location = new Point(370, 0);
             MainPanel.Name = "MainPanel";
             MainPanel.Size = new Size(761, 732);
             MainPanel.TabIndex = 8;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(120, 23);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(73, 68);
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.DarkSlateGray;
+            panel1.Dock = DockStyle.Top;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(761, 33);
+            panel1.TabIndex = 0;
             // 
             // Form1
             // 
@@ -398,6 +422,8 @@
             Text = "DAB";
             MenuPanel.ResumeLayout(false);
             NumberPanel.ResumeLayout(false);
+            MainPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -427,5 +453,7 @@
         private Button button1;
         private Button button3;
         private Button button4;
+        private PictureBox pictureBox1;
+        private Panel panel1;
     }
 }

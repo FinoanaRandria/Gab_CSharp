@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            label11 = new Label();
-            label10 = new Label();
-            label9 = new Label();
-            label7 = new Label();
+            CIN = new Label();
+            Addresse = new Label();
+            Prenom = new Label();
+            Nom = new Label();
             label6 = new Label();
             label5 = new Label();
             label4 = new Label();
             label2 = new Label();
-            label3 = new Label();
-            label8 = new Label();
+            Expiration = new Label();
+            dateDexpiration = new Label();
             SuspendLayout();
             // 
             // label1
@@ -51,41 +51,42 @@
             label1.TabIndex = 1;
             label1.Text = "Information Utilisateur";
             // 
-            // label11
+            // CIN
             // 
-            label11.AutoSize = true;
-            label11.Location = new Point(162, 359);
-            label11.Name = "label11";
-            label11.Size = new Size(58, 20);
-            label11.TabIndex = 18;
-            label11.Text = "label11";
+            CIN.AutoSize = true;
+            CIN.Location = new Point(162, 359);
+            CIN.Name = "CIN";
+            CIN.Size = new Size(58, 20);
+            CIN.TabIndex = 18;
+            CIN.Text = "label11";
             // 
-            // label10
+            // Addresse
             // 
-            label10.AutoSize = true;
-            label10.Location = new Point(196, 304);
-            label10.Name = "label10";
-            label10.Size = new Size(58, 20);
-            label10.TabIndex = 17;
-            label10.Text = "label10";
+            Addresse.AutoSize = true;
+            Addresse.Location = new Point(196, 304);
+            Addresse.Name = "Addresse";
+            Addresse.Size = new Size(58, 20);
+            Addresse.TabIndex = 17;
+            Addresse.Text = "label10";
             // 
-            // label9
+            // Prenom
             // 
-            label9.AutoSize = true;
-            label9.Location = new Point(193, 244);
-            label9.Name = "label9";
-            label9.Size = new Size(50, 20);
-            label9.TabIndex = 16;
-            label9.Text = "label9";
+            Prenom.AutoSize = true;
+            Prenom.Location = new Point(193, 244);
+            Prenom.Name = "Prenom";
+            Prenom.Size = new Size(50, 20);
+            Prenom.TabIndex = 16;
+            Prenom.Text = "label9";
             // 
-            // label7
+            // Nom
             // 
-            label7.AutoSize = true;
-            label7.Location = new Point(170, 187);
-            label7.Name = "label7";
-            label7.Size = new Size(50, 20);
-            label7.TabIndex = 15;
-            label7.Text = "label7";
+            Nom.AutoSize = true;
+            Nom.Location = new Point(170, 187);
+            Nom.Name = "Nom";
+            Nom.Size = new Size(50, 20);
+            Nom.TabIndex = 15;
+            Nom.Text = "label7";
+            Nom.Click += label7_Click;
             // 
             // label6
             // 
@@ -128,36 +129,36 @@
             label2.TabIndex = 11;
             label2.Text = "Nom :";
             // 
-            // label3
+            // Expiration
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(247, 409);
-            label3.Name = "label3";
-            label3.Size = new Size(50, 20);
-            label3.TabIndex = 20;
-            label3.Text = "label3";
+            Expiration.AutoSize = true;
+            Expiration.Location = new Point(277, 410);
+            Expiration.Name = "Expiration";
+            Expiration.Size = new Size(50, 20);
+            Expiration.TabIndex = 20;
+            Expiration.Text = "label3";
             // 
-            // label8
+            // dateDexpiration
             // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label8.Location = new Point(99, 403);
-            label8.Name = "label8";
-            label8.Size = new Size(145, 28);
-            label8.TabIndex = 19;
-            label8.Text = "ID Du Compte :";
+            dateDexpiration.AutoSize = true;
+            dateDexpiration.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dateDexpiration.Location = new Point(99, 403);
+            dateDexpiration.Name = "dateDexpiration";
+            dateDexpiration.Size = new Size(172, 28);
+            dateDexpiration.TabIndex = 19;
+            dateDexpiration.Text = "Date d'expiration :";
             // 
             // InformationUtilisateur
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(743, 685);
-            Controls.Add(label3);
-            Controls.Add(label8);
-            Controls.Add(label11);
-            Controls.Add(label10);
-            Controls.Add(label9);
-            Controls.Add(label7);
+            Controls.Add(Expiration);
+            Controls.Add(dateDexpiration);
+            Controls.Add(CIN);
+            Controls.Add(Addresse);
+            Controls.Add(Prenom);
+            Controls.Add(Nom);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
@@ -166,6 +167,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "InformationUtilisateur";
             Text = "InformationUtilisateur";
+            Load += InformationUtilisateur_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -173,15 +175,15 @@
         #endregion
 
         private Label label1;
-        private Label label11;
-        private Label label10;
-        private Label label9;
-        private Label label7;
+        private Label CIN;
+        private Label Addresse;
+        private Label Prenom;
+        private Label Nom;
         private Label label6;
         private Label label5;
         private Label label4;
         private Label label2;
-        private Label label3;
-        private Label label8;
+        private Label Expiration;
+        private Label dateDexpiration;
     }
 }

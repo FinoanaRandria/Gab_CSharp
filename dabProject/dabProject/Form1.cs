@@ -79,7 +79,7 @@ namespace dabProject
 
         private void button1_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.Acceuil(() => OpenChildForm(new Forms.PinValidation(()=>UserIsConnected()))));
+            OpenChildForm(new Forms.Acceuil(() => OpenChildForm(new Forms.PinValidation(() => UserIsConnected()))));
         }
 
         private void HisotriqueBtn_Click(object sender, EventArgs e)

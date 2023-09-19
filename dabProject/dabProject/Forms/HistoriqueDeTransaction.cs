@@ -16,5 +16,10 @@ namespace dabProject.Forms
         {
             InitializeComponent();
         }
+
+        private void HistoriqueDeTransaction_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Acceuil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\CarteInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ConsultationSolde.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\HistoriqueDeTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\InformationUtilisateur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\PinValidation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Refused.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Retrait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Validate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserControll\UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControll\UserControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

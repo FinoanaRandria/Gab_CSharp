@@ -7,10 +7,11 @@ namespace dabProject.Database
     {
         public Account()
         {
-            Clients = new HashSet<Client>();
+            Transactions = new HashSet<Transaction>();
         }
 
         public int AccountId { get; set; }
+        public int? ClientId { get; set; }
         public string Label { get; set; } = null!;
         public long Solde { get; set; }
         public string Pin { get; set; } = null!;
@@ -20,6 +21,7 @@ namespace dabProject.Database
         public int? Tentative { get; set; }
         public string? CarteNumber { get; set; }
 
-        public virtual ICollection<Client> Clients { get; set; }
+        public virtual Client? Client { get; set; }
+        public virtual ICollection<Transaction> Transactions { get; set; }
     }
 }

@@ -99,6 +99,7 @@
             Label.Size = new Size(50, 20);
             Label.TabIndex = 6;
             Label.Text = "label7";
+            Label.Click += Label_Click;
             // 
             // Status
             // 
