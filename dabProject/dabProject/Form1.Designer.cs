@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             MenuPanel = new Panel();
+            pictureBox1 = new PictureBox();
             button4 = new Button();
             SidePanel = new Panel();
             HistoriqueBtn = new Button();
@@ -54,12 +55,11 @@
             btn2 = new Button();
             btn3 = new Button();
             MainPanel = new Panel();
-            pictureBox1 = new PictureBox();
             panel1 = new Panel();
             MenuPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             NumberPanel.SuspendLayout();
             MainPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // MenuPanel
@@ -81,6 +81,15 @@
             MenuPanel.Size = new Size(314, 775);
             MenuPanel.TabIndex = 1;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(120, 23);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(73, 68);
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            // 
             // button4
             // 
             button4.FlatAppearance.BorderSize = 0;
@@ -100,7 +109,7 @@
             // 
             // SidePanel
             // 
-            SidePanel.BackColor = Color.Firebrick;
+            SidePanel.BackColor = Color.DarkSlateGray;
             SidePanel.Location = new Point(-1, 87);
             SidePanel.Margin = new Padding(3, 4, 3, 4);
             SidePanel.Name = "SidePanel";
@@ -388,15 +397,6 @@
             MainPanel.Size = new Size(761, 732);
             MainPanel.TabIndex = 8;
             // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(120, 23);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(73, 68);
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            // 
             // panel1
             // 
             panel1.BackColor = Color.DarkSlateGray;
@@ -421,9 +421,9 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "DAB";
             MenuPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             NumberPanel.ResumeLayout(false);
             MainPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 

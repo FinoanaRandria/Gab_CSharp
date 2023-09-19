@@ -32,6 +32,7 @@ namespace dabProject.Forms
                     Account _temp_account = (from a in _context.Accounts where a.CarteNumber == Form1.CurrentUser_card select a).FirstOrDefault();
                     if (_temp_account != null)
                     {
+                        numCarte.Text = _temp_account.CarteNumber;
                         Label.Text = _temp_account.Label;
                         Status.Text = _temp_account.Status ? "Actif" : "Desactivé";
                         Creation.Text = _temp_account.Creation.ToString("dddd dd MMMM yyyy");
@@ -46,6 +47,11 @@ namespace dabProject.Forms
         }
 
         private void Label_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

@@ -50,7 +50,7 @@ namespace dabProject.Forms
                         Prenom.Text = _temp_client.Prenom;
                         Addresse.Text = _temp_client.Adresse;
                         CIN.Text = _temp_client.Cin;
-                        
+
 
 
 
