@@ -33,7 +33,7 @@
             label2 = new Label();
             pinInput = new TextBox();
             pictureBox3 = new PictureBox();
-            SetDate = new Label();
+            SetDatePin = new Label();
             pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -74,14 +74,14 @@
             pictureBox3.TabIndex = 14;
             pictureBox3.TabStop = false;
             // 
-            // SetDate
+            // SetDatePin
             // 
-            SetDate.AutoSize = true;
-            SetDate.Location = new Point(519, 9);
-            SetDate.Name = "SetDate";
-            SetDate.Size = new Size(173, 20);
-            SetDate.TabIndex = 13;
-            SetDate.Text = "lundi 17 septembre 2023";
+            SetDatePin.AutoSize = true;
+            SetDatePin.Location = new Point(519, 9);
+            SetDatePin.Name = "SetDatePin";
+            SetDatePin.Size = new Size(173, 20);
+            SetDatePin.TabIndex = 13;
+            SetDatePin.Text = "lundi 17 septembre 2023";
             // 
             // pictureBox1
             // 
@@ -99,13 +99,14 @@
             ClientSize = new Size(743, 685);
             Controls.Add(pictureBox1);
             Controls.Add(pictureBox3);
-            Controls.Add(SetDate);
+            Controls.Add(SetDatePin);
             Controls.Add(ValidPinBtn);
             Controls.Add(label2);
             Controls.Add(pinInput);
             FormBorderStyle = FormBorderStyle.None;
             Name = "PinValidation";
             Text = "PinValidation";
+            Load += pinvalidLoad;
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
@@ -118,7 +119,7 @@
         private Label label2;
         private TextBox pinInput;
         private PictureBox pictureBox3;
-        private Label SetDate;
+        private Label SetDatePin;
         private PictureBox pictureBox1;
     }
 }

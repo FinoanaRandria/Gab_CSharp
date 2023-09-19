@@ -87,6 +87,7 @@
             SetDate.Size = new Size(173, 20);
             SetDate.TabIndex = 9;
             SetDate.Text = "lundi 17 septembre 2023";
+            SetDate.Click += SetDate_Click;
             SetDate.Paint += Set_Date;
             // 
             // pictureBox1

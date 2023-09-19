@@ -25,6 +25,9 @@ namespace dabProject.Forms
 
         private void CarteInformation_Load(object sender, EventArgs e)
         {
+
+            SetDateCarte.Text = DateTime.Now.ToString("dddd dd MMMM yyyy");
+
             try
             {
                 using (Database.DabDatabaseContext _context = new Database.DabDatabaseContext())

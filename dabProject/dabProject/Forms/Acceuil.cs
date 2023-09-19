@@ -48,5 +48,10 @@ namespace dabProject.Forms
                 }
             }
         }
+
+        private void Acceuil_Load(object sender, EventArgs e)
+        {
+            SetDateAceuille.Text = DateTime.Now.ToString("dddd dd MMMM yyyy");
+        }
     }
 }

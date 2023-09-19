@@ -123,7 +123,7 @@
             // pictureBox3
             // 
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(689, 5);
+            pictureBox3.Location = new Point(698, 5);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(25, 29);
             pictureBox3.TabIndex = 14;
@@ -133,7 +133,7 @@
             // SetDateTransation
             // 
             SetDateTransation.AutoSize = true;
-            SetDateTransation.Location = new Point(507, 9);
+            SetDateTransation.Location = new Point(516, 9);
             SetDateTransation.Name = "SetDateTransation";
             SetDateTransation.Size = new Size(173, 20);
             SetDateTransation.TabIndex = 13;

@@ -34,7 +34,7 @@
             label2 = new Label();
             continuerBtn = new Button();
             pictureBox3 = new PictureBox();
-            SetDate = new Label();
+            SetDateAceuille = new Label();
             pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -85,14 +85,14 @@
             pictureBox3.TabIndex = 14;
             pictureBox3.TabStop = false;
             // 
-            // SetDate
+            // SetDateAceuille
             // 
-            SetDate.AutoSize = true;
-            SetDate.Location = new Point(532, 9);
-            SetDate.Name = "SetDate";
-            SetDate.Size = new Size(173, 20);
-            SetDate.TabIndex = 13;
-            SetDate.Text = "lundi 17 septembre 2023";
+            SetDateAceuille.AutoSize = true;
+            SetDateAceuille.Location = new Point(532, 9);
+            SetDateAceuille.Name = "SetDateAceuille";
+            SetDateAceuille.Size = new Size(173, 20);
+            SetDateAceuille.TabIndex = 13;
+            SetDateAceuille.Text = "lundi 17 septembre 2023";
             // 
             // pictureBox1
             // 
@@ -110,7 +110,7 @@
             ClientSize = new Size(761, 732);
             Controls.Add(pictureBox1);
             Controls.Add(pictureBox3);
-            Controls.Add(SetDate);
+            Controls.Add(SetDateAceuille);
             Controls.Add(continuerBtn);
             Controls.Add(label2);
             Controls.Add(keyInput);
@@ -118,6 +118,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "Acceuil";
             Text = "Acceuil";
+            Load += Acceuil_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
@@ -130,7 +131,7 @@
         private Label label2;
         private Button continuerBtn;
         private PictureBox pictureBox3;
-        private Label SetDate;
+        private Label SetDateAceuille;
         private PictureBox pictureBox1;
         public  static TextBox keyInput;
     }

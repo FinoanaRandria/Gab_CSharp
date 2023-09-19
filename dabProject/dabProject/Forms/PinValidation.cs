@@ -22,7 +22,10 @@ namespace dabProject.Forms
         }
 
         private void ValidPinBtn_click(object sender, EventArgs e)
+
+
         {
+
             string pin_input = pinInput.Text.Trim();
             using (Database.DabDatabaseContext _context = new Database.DabDatabaseContext())
             {
@@ -62,6 +65,11 @@ namespace dabProject.Forms
 
                 }
             }
+        }
+
+        private void pinvalidLoad(object sender, EventArgs e)
+        {
+            SetDatePin.Text = DateTime.Now.ToString("dddd dd MMMM yyyy");
         }
     }
 }

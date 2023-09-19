@@ -42,7 +42,7 @@
             dateDexpiration = new Label();
             pictureBox1 = new PictureBox();
             pictureBox3 = new PictureBox();
-            SetDate = new Label();
+            SetDateUser = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
@@ -172,14 +172,14 @@
             pictureBox3.TabIndex = 23;
             pictureBox3.TabStop = false;
             // 
-            // SetDate
+            // SetDateUser
             // 
-            SetDate.AutoSize = true;
-            SetDate.Location = new Point(523, 9);
-            SetDate.Name = "SetDate";
-            SetDate.Size = new Size(173, 20);
-            SetDate.TabIndex = 22;
-            SetDate.Text = "lundi 17 septembre 2023";
+            SetDateUser.AutoSize = true;
+            SetDateUser.Location = new Point(523, 9);
+            SetDateUser.Name = "SetDateUser";
+            SetDateUser.Size = new Size(173, 20);
+            SetDateUser.TabIndex = 22;
+            SetDateUser.Text = "lundi 17 septembre 2023";
             // 
             // InformationUtilisateur
             // 
@@ -187,7 +187,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(743, 685);
             Controls.Add(pictureBox3);
-            Controls.Add(SetDate);
+            Controls.Add(SetDateUser);
             Controls.Add(pictureBox1);
             Controls.Add(Expiration);
             Controls.Add(dateDexpiration);
@@ -225,6 +225,6 @@
         private Label dateDexpiration;
         private PictureBox pictureBox1;
         private PictureBox pictureBox3;
-        private Label SetDate;
+        private Label SetDateUser;
     }
 }
