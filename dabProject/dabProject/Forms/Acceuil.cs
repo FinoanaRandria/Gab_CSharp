@@ -25,12 +25,12 @@ namespace dabProject.Forms
 
         private void continuerBtn_Click(object sender, EventArgs e)
         {
-            using(Database.DabDatabaseContext _context = new Database.DabDatabaseContext())
+            using (Database.DabDatabaseContext _context = new Database.DabDatabaseContext())
             {
                 try
                 {
                     string card_user_input = keyInput.Text.Replace(" ", "");
-                    Account _temp_account = (from a in  _context.Accounts  where a.Status == true && a.CarteNumber == card_user_input select a).FirstOrDefault();
+                    Account _temp_account = (from a in _context.Accounts where a.Status == true && a.CarteNumber == card_user_input select a).FirstOrDefault();
                     if (_temp_account != null)
                     {
                         Form1.CurrentUser_card = _temp_account.CarteNumber;
@@ -41,7 +41,9 @@ namespace dabProject.Forms
                         Console.WriteLine("User card not valid");
                     }
 
-                }catch(Exception ){
+                }
+                catch (Exception)
+                {
 
                 }
             }

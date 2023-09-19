@@ -41,7 +41,9 @@
             pictureBox1 = new PictureBox();
             label3 = new Label();
             numCarte = new Label();
+            pictureBox2 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -162,11 +164,21 @@
             numCarte.TabIndex = 13;
             numCarte.Text = "label7";
             // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(716, 12);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(33, 27);
+            pictureBox2.TabIndex = 14;
+            pictureBox2.TabStop = false;
+            // 
             // CarteInformation
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(761, 732);
+            Controls.Add(pictureBox2);
             Controls.Add(numCarte);
             Controls.Add(label3);
             Controls.Add(pictureBox1);
@@ -184,6 +196,7 @@
             Text = "CarteInformation";
             Load += CarteInformation_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -202,5 +215,6 @@
         private PictureBox pictureBox1;
         private Label label3;
         private Label numCarte;
+        private PictureBox pictureBox2;
     }
 }

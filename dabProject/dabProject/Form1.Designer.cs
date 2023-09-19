@@ -416,6 +416,7 @@
             Controls.Add(ColorPanel1);
             Controls.Add(colorPanel);
             Controls.Add(MenuPanel);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Form1";
             SizeGripStyle = SizeGripStyle.Show;
             StartPosition = FormStartPosition.CenterScreen;

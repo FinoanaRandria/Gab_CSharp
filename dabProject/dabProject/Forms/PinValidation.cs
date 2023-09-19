@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace dabProject.Forms
 {
-    public delegate void Params_Pin ();
+    public delegate void Params_Pin();
     public partial class PinValidation : Form
     {
         private Params_Pin callback;

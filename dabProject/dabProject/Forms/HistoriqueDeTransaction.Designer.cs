@@ -37,8 +37,11 @@
             Column2 = new DataGridViewTextBoxColumn();
             Column3 = new DataGridViewTextBoxColumn();
             Column4 = new DataGridViewTextBoxColumn();
+            pictureBox3 = new PictureBox();
+            SetDate = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridTransactions).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -117,11 +120,31 @@
             Column4.ReadOnly = true;
             Column4.Width = 125;
             // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(688, 5);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(25, 29);
+            pictureBox3.TabIndex = 14;
+            pictureBox3.TabStop = false;
+            // 
+            // SetDate
+            // 
+            SetDate.AutoSize = true;
+            SetDate.Location = new Point(506, 9);
+            SetDate.Name = "SetDate";
+            SetDate.Size = new Size(173, 20);
+            SetDate.TabIndex = 13;
+            SetDate.Text = "lundi 17 septembre 2023";
+            // 
             // HistoriqueDeTransaction
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(725, 638);
+            Controls.Add(pictureBox3);
+            Controls.Add(SetDate);
             Controls.Add(dataGridTransactions);
             Controls.Add(pictureBox1);
             Controls.Add(label2);
@@ -132,6 +155,7 @@
             Load += HistoriqueDeTransaction_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridTransactions).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -146,5 +170,7 @@
         private DataGridViewTextBoxColumn Column2;
         private DataGridViewTextBoxColumn Column3;
         private DataGridViewTextBoxColumn Column4;
+        private PictureBox pictureBox3;
+        private Label SetDate;
     }
 }

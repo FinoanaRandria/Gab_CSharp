@@ -28,17 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PinValidation));
             ValidPinBtn = new Button();
             label2 = new Label();
             pinInput = new TextBox();
-            label1 = new Label();
+            pictureBox3 = new PictureBox();
+            SetDate = new Label();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // ValidPinBtn
             // 
-            ValidPinBtn.Location = new Point(192, 247);
+            ValidPinBtn.Location = new Point(314, 378);
             ValidPinBtn.Name = "ValidPinBtn";
-            ValidPinBtn.Size = new Size(94, 29);
+            ValidPinBtn.Size = new Size(109, 29);
             ValidPinBtn.TabIndex = 9;
             ValidPinBtn.Text = "Connexion";
             ValidPinBtn.UseVisualStyleBackColor = true;
@@ -47,7 +52,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(188, 151);
+            label2.Location = new Point(309, 281);
             label2.Name = "label2";
             label2.Size = new Size(113, 20);
             label2.TabIndex = 8;
@@ -55,33 +60,54 @@
             // 
             // pinInput
             // 
-            pinInput.Location = new Point(192, 186);
+            pinInput.Location = new Point(313, 316);
             pinInput.Name = "pinInput";
             pinInput.Size = new Size(109, 27);
             pinInput.TabIndex = 7;
             // 
-            // label1
+            // pictureBox3
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 32F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(12, 45);
-            label1.Name = "label1";
-            label1.Size = new Size(114, 72);
-            label1.TabIndex = 10;
-            label1.Text = "PIN";
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(701, 5);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(25, 29);
+            pictureBox3.TabIndex = 14;
+            pictureBox3.TabStop = false;
+            // 
+            // SetDate
+            // 
+            SetDate.AutoSize = true;
+            SetDate.Location = new Point(519, 9);
+            SetDate.Name = "SetDate";
+            SetDate.Size = new Size(173, 20);
+            SetDate.TabIndex = 13;
+            SetDate.Text = "lundi 17 septembre 2023";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(304, 147);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(142, 133);
+            pictureBox1.TabIndex = 15;
+            pictureBox1.TabStop = false;
             // 
             // PinValidation
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(743, 685);
-            Controls.Add(label1);
+            Controls.Add(pictureBox1);
+            Controls.Add(pictureBox3);
+            Controls.Add(SetDate);
             Controls.Add(ValidPinBtn);
             Controls.Add(label2);
             Controls.Add(pinInput);
             FormBorderStyle = FormBorderStyle.None;
             Name = "PinValidation";
             Text = "PinValidation";
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -91,6 +117,8 @@
         private Button ValidPinBtn;
         private Label label2;
         private TextBox pinInput;
-        private Label label1;
+        private PictureBox pictureBox3;
+        private Label SetDate;
+        private PictureBox pictureBox1;
     }
 }

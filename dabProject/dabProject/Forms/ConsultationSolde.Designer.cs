@@ -35,7 +35,9 @@
             label4 = new Label();
             SetDate = new Label();
             pictureBox1 = new PictureBox();
+            pictureBox3 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -80,7 +82,7 @@
             // SetDate
             // 
             SetDate.AutoSize = true;
-            SetDate.Location = new Point(558, 9);
+            SetDate.Location = new Point(521, 9);
             SetDate.Name = "SetDate";
             SetDate.Size = new Size(173, 20);
             SetDate.TabIndex = 9;
@@ -96,11 +98,21 @@
             pictureBox1.TabIndex = 10;
             pictureBox1.TabStop = false;
             // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(703, 5);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(25, 29);
+            pictureBox3.TabIndex = 12;
+            pictureBox3.TabStop = false;
+            // 
             // ConsultationSolde
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(743, 685);
+            Controls.Add(pictureBox3);
             Controls.Add(pictureBox1);
             Controls.Add(SetDate);
             Controls.Add(label4);
@@ -112,6 +124,7 @@
             Text = "ConsultationSolde";
             Load += ConsultationSolde_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -124,5 +137,6 @@
         private Label label4;
         private Label SetDate;
         private PictureBox pictureBox1;
+        private PictureBox pictureBox3;
     }
 }
