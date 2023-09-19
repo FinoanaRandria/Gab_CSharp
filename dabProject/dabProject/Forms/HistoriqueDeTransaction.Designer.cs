@@ -38,7 +38,7 @@
             Column3 = new DataGridViewTextBoxColumn();
             Column4 = new DataGridViewTextBoxColumn();
             pictureBox3 = new PictureBox();
-            SetDate = new Label();
+            SetDateTransation = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridTransactions).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -123,20 +123,22 @@
             // pictureBox3
             // 
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(688, 5);
+            pictureBox3.Location = new Point(689, 5);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(25, 29);
             pictureBox3.TabIndex = 14;
             pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
             // 
-            // SetDate
+            // SetDateTransation
             // 
-            SetDate.AutoSize = true;
-            SetDate.Location = new Point(506, 9);
-            SetDate.Name = "SetDate";
-            SetDate.Size = new Size(173, 20);
-            SetDate.TabIndex = 13;
-            SetDate.Text = "lundi 17 septembre 2023";
+            SetDateTransation.AutoSize = true;
+            SetDateTransation.Location = new Point(507, 9);
+            SetDateTransation.Name = "SetDateTransation";
+            SetDateTransation.Size = new Size(173, 20);
+            SetDateTransation.TabIndex = 13;
+            SetDateTransation.Text = "lundi 17 septembre 2023";
+            SetDateTransation.Click += SetDate_Click;
             // 
             // HistoriqueDeTransaction
             // 
@@ -144,7 +146,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(725, 638);
             Controls.Add(pictureBox3);
-            Controls.Add(SetDate);
+            Controls.Add(SetDateTransation);
             Controls.Add(dataGridTransactions);
             Controls.Add(pictureBox1);
             Controls.Add(label2);
@@ -171,6 +173,6 @@
         private DataGridViewTextBoxColumn Column3;
         private DataGridViewTextBoxColumn Column4;
         private PictureBox pictureBox3;
-        private Label SetDate;
+        private Label SetDateTransation;
     }
 }

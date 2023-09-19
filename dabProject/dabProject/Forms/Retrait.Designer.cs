@@ -43,10 +43,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 32F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(282, 266);
+            label1.Font = new Font("SimSun-ExtB", 31.8000011F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(267, 274);
             label1.Name = "label1";
-            label1.Size = new Size(183, 72);
+            label1.Size = new Size(219, 54);
             label1.TabIndex = 2;
             label1.Text = "Retrait";
             // 

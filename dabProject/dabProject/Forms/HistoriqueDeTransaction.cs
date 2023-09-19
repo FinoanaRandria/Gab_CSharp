@@ -20,6 +20,7 @@ namespace dabProject.Forms
 
         private void HistoriqueDeTransaction_Load(object sender, EventArgs e)
         {
+            SetDateTransation.Text = DateTime.Now.ToString("dddd dd MMMM yyyy");
             using (Database.DabDatabaseContext _context = new Database.DabDatabaseContext())
             {
                 List<Database.Transaction> user_transaction = _context.Transactions.Where(x => x.AccountId == (from a in _context.Accounts where a.CarteNumber == Form1.CurrentUser_card select a.AccountId).First()).ToList();
@@ -39,6 +40,15 @@ namespace dabProject.Forms
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void SetDate_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
         }
     }
 }

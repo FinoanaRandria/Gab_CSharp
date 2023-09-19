@@ -35,22 +35,24 @@
             continuerBtn = new Button();
             pictureBox3 = new PictureBox();
             SetDate = new Label();
+            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 32F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(-2, 253);
+            label1.Font = new Font("SimSun-ExtB", 31.8000011F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(7, 317);
             label1.Name = "label1";
-            label1.Size = new Size(767, 72);
+            label1.Size = new Size(751, 54);
             label1.TabIndex = 2;
             label1.Text = "Welcome/Bienvenue/Tongasoa";
             // 
             // keyInput
             // 
-            keyInput.Location = new Point(206, 386);
+            keyInput.Location = new Point(206, 433);
             keyInput.Name = "keyInput";
             keyInput.Size = new Size(350, 27);
             keyInput.TabIndex = 3;
@@ -58,7 +60,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(248, 352);
+            label2.Location = new Point(248, 399);
             label2.Name = "label2";
             label2.Size = new Size(273, 20);
             label2.TabIndex = 5;
@@ -66,7 +68,7 @@
             // 
             // continuerBtn
             // 
-            continuerBtn.Location = new Point(341, 446);
+            continuerBtn.Location = new Point(335, 489);
             continuerBtn.Name = "continuerBtn";
             continuerBtn.Size = new Size(94, 29);
             continuerBtn.TabIndex = 6;
@@ -92,11 +94,21 @@
             SetDate.TabIndex = 13;
             SetDate.Text = "lundi 17 septembre 2023";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(313, 159);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(131, 132);
+            pictureBox1.TabIndex = 15;
+            pictureBox1.TabStop = false;
+            // 
             // Acceuil
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(761, 732);
+            Controls.Add(pictureBox1);
             Controls.Add(pictureBox3);
             Controls.Add(SetDate);
             Controls.Add(continuerBtn);
@@ -107,6 +119,7 @@
             Name = "Acceuil";
             Text = "Acceuil";
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -118,6 +131,7 @@
         private Button continuerBtn;
         private PictureBox pictureBox3;
         private Label SetDate;
-        public static TextBox keyInput;
+        private PictureBox pictureBox1;
+        public  static TextBox keyInput;
     }
 }

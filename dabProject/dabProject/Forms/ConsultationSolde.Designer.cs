@@ -82,7 +82,7 @@
             // SetDate
             // 
             SetDate.AutoSize = true;
-            SetDate.Location = new Point(521, 9);
+            SetDate.Location = new Point(523, 9);
             SetDate.Name = "SetDate";
             SetDate.Size = new Size(173, 20);
             SetDate.TabIndex = 9;
@@ -101,7 +101,7 @@
             // pictureBox3
             // 
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(703, 5);
+            pictureBox3.Location = new Point(705, 5);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(25, 29);
             pictureBox3.TabIndex = 12;
