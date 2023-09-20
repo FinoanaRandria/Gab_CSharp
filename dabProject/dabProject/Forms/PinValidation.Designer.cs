@@ -64,6 +64,8 @@
             pinInput.Name = "pinInput";
             pinInput.Size = new Size(109, 27);
             pinInput.TabIndex = 7;
+            pinInput.UseSystemPasswordChar = true;
+            pinInput.TextChanged += pinInput_TextChanged;
             // 
             // pictureBox3
             // 
@@ -77,7 +79,7 @@
             // SetDatePin
             // 
             SetDatePin.AutoSize = true;
-            SetDatePin.Location = new Point(519, 9);
+            SetDatePin.Location = new Point(491, 9);
             SetDatePin.Name = "SetDatePin";
             SetDatePin.Size = new Size(173, 20);
             SetDatePin.TabIndex = 13;
@@ -86,9 +88,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(304, 147);
+            pictureBox1.Location = new Point(301, 140);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(142, 133);
+            pictureBox1.Size = new Size(131, 133);
             pictureBox1.TabIndex = 15;
             pictureBox1.TabStop = false;
             // 

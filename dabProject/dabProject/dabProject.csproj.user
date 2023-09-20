@@ -10,6 +10,9 @@
     <Compile Update="Forms\CarteInformation.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\CodePinDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\ConsultationSolde.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -23,6 +26,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\Retrait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\virementArgent.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="UserControll\UserControl1.cs">

@@ -177,7 +177,7 @@
             // SetDateCarte
             // 
             SetDateCarte.AutoSize = true;
-            SetDateCarte.Location = new Point(539, 9);
+            SetDateCarte.Location = new Point(529, 9);
             SetDateCarte.Name = "SetDateCarte";
             SetDateCarte.Size = new Size(173, 20);
             SetDateCarte.TabIndex = 15;

@@ -175,7 +175,7 @@
             // SetDateUser
             // 
             SetDateUser.AutoSize = true;
-            SetDateUser.Location = new Point(523, 9);
+            SetDateUser.Location = new Point(495, 9);
             SetDateUser.Name = "SetDateUser";
             SetDateUser.Size = new Size(173, 20);
             SetDateUser.TabIndex = 22;

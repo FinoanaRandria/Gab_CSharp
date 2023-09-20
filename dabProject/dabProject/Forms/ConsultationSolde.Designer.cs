@@ -82,7 +82,7 @@
             // SetDate
             // 
             SetDate.AutoSize = true;
-            SetDate.Location = new Point(523, 9);
+            SetDate.Location = new Point(515, 9);
             SetDate.Name = "SetDate";
             SetDate.Size = new Size(173, 20);
             SetDate.TabIndex = 9;

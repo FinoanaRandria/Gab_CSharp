@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             MenuPanel = new Panel();
+            VirementBtn = new Button();
             pictureBox1 = new PictureBox();
             button4 = new Button();
             SidePanel = new Panel();
@@ -65,6 +66,7 @@
             // MenuPanel
             // 
             MenuPanel.BackColor = Color.FromArgb(64, 64, 64);
+            MenuPanel.Controls.Add(VirementBtn);
             MenuPanel.Controls.Add(pictureBox1);
             MenuPanel.Controls.Add(button4);
             MenuPanel.Controls.Add(SidePanel);
@@ -80,6 +82,23 @@
             MenuPanel.Name = "MenuPanel";
             MenuPanel.Size = new Size(314, 775);
             MenuPanel.TabIndex = 1;
+            // 
+            // VirementBtn
+            // 
+            VirementBtn.FlatAppearance.BorderSize = 0;
+            VirementBtn.FlatStyle = FlatStyle.Flat;
+            VirementBtn.ForeColor = Color.Snow;
+            VirementBtn.Image = (Image)resources.GetObject("VirementBtn.Image");
+            VirementBtn.ImageAlign = ContentAlignment.MiddleLeft;
+            VirementBtn.Location = new Point(23, 611);
+            VirementBtn.Margin = new Padding(3, 4, 3, 4);
+            VirementBtn.Name = "VirementBtn";
+            VirementBtn.Size = new Size(285, 77);
+            VirementBtn.TabIndex = 8;
+            VirementBtn.Text = "Virement";
+            VirementBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
+            VirementBtn.UseVisualStyleBackColor = true;
+            VirementBtn.Click += button2_Click_1;
             // 
             // pictureBox1
             // 
@@ -97,7 +116,7 @@
             button4.ForeColor = Color.Snow;
             button4.Image = (Image)resources.GetObject("button4.Image");
             button4.ImageAlign = ContentAlignment.MiddleLeft;
-            button4.Location = new Point(23, 609);
+            button4.Location = new Point(23, 685);
             button4.Margin = new Padding(3, 4, 3, 4);
             button4.Name = "button4";
             button4.Size = new Size(285, 77);
@@ -259,6 +278,7 @@
             NumberPanel.Name = "NumberPanel";
             NumberPanel.Size = new Size(307, 732);
             NumberPanel.TabIndex = 7;
+            NumberPanel.Paint += NumberPanel_Paint;
             // 
             // button3
             // 
@@ -456,5 +476,6 @@
         private Button button4;
         private PictureBox pictureBox1;
         private Panel panel1;
+        private Button VirementBtn;
     }
 }

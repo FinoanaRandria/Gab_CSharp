@@ -133,7 +133,7 @@
             // SetDateTransation
             // 
             SetDateTransation.AutoSize = true;
-            SetDateTransation.Location = new Point(516, 9);
+            SetDateTransation.Location = new Point(504, 9);
             SetDateTransation.Name = "SetDateTransation";
             SetDateTransation.Size = new Size(173, 20);
             SetDateTransation.TabIndex = 13;

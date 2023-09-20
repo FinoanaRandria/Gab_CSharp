@@ -61,3 +61,5 @@ C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\dabProject\dabProject\bin\De
 C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\dabProject\dabProject\bin\Debug\net6.0-windows\PdfSharp.dll
 C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\dabProject\dabProject\bin\Debug\net6.0-windows\de\PdfSharp.Charting.resources.dll
 C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\dabProject\dabProject\bin\Debug\net6.0-windows\de\PdfSharp.resources.dll
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\dabProject\dabProject\obj\Debug\net6.0-windows\dabProject.Forms.CodePinDialog.resources
+C:\Users\Finoana Randri\Documents\GitHub\Gab_CSharp\dabProject\dabProject\obj\Debug\net6.0-windows\dabProject.Forms.virementArgent.resources

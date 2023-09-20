@@ -31,11 +31,9 @@ namespace dabProject.Forms
             {
                 try
                 {
-                    Account _temp_account = (from a in _context.Accounts where a.Status == true && a.CarteNumber == Form1.CurrentUser_card select a).FirstOrDefault();
+                    Account _temp_account = (from a in _context.Accounts where a.CarteNumber == Form1.CurrentUser_card && a.Status == true select a).FirstOrDefault();
                     if (_temp_account != null)
                     {
-
-
                         if (_temp_account.Tentative == 0)
                         {
                             Console.WriteLine("your Account has been Blocked");
@@ -46,33 +44,35 @@ namespace dabProject.Forms
                                     MessageBoxIcon.Error
                                 );
                         }
+                        else if (_temp_account.Pin == pin_input)
+                        {
+                            _temp_account.Tentative = 5;
+                            _context.SaveChanges();
+                            Form1.CurrentUser_isLogged = true;
+                            this.callback();
+                        }
                         else
                         {
-                            Account _temp_account_verified = (from a in _context.Accounts where a.CarteNumber == Form1.CurrentUser_card && a.Pin == pin_input select a).FirstOrDefault();
-                            if (_temp_account_verified != null)
+                            _temp_account.Tentative--;
+                            _context.SaveChanges();
+
+                            MessageBox.Show($"User Pin is incorrect. {_temp_account.Tentative} attempts remaining.");
+
+                            if (_temp_account.Tentative == 0)
                             {
-                                Form1.CurrentUser_isLogged = true;
-                                _temp_account.Tentative = 3;
+                                _temp_account.Status = false;
                                 _context.SaveChanges();
-                                this.callback();
-                            }
-                            else
-                            {
-                                Console.WriteLine("User Pin is incorrect");
-                                _temp_account.Tentative -= 1;
-                                _context.SaveChanges();
+                                MessageBox.Show("Your Account has been Blocked");
                             }
                         }
                     }
                     else
                     {
-                        Console.WriteLine("User card not valid");
+                        MessageBox.Show("User card not valid");
                     }
-
                 }
                 catch (Exception)
                 {
-
                 }
             }
         }
@@ -80,6 +80,11 @@ namespace dabProject.Forms
         private void pinvalidLoad(object sender, EventArgs e)
         {
             SetDatePin.Text = DateTime.Now.ToString("dddd dd MMMM yyyy");
+        }
+
+        private void pinInput_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

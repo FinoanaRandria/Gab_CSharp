@@ -23,6 +23,7 @@ namespace dabProject
                 ConsultationSoldeBtn.Visible = false;
                 RetraitBtn.Visible = false;
                 HistoriqueBtn.Visible = false;
+                VirementBtn.Visible = false;
             }
         }
 
@@ -34,7 +35,7 @@ namespace dabProject
             ConsultationSoldeBtn.Visible = true;
             RetraitBtn.Visible = true;
             HistoriqueBtn.Visible = true;
-
+            VirementBtn.Visible = true;
             OpenChildForm(new Forms.CarteInformation());
         }
 
@@ -86,6 +87,13 @@ namespace dabProject
         {
             OpenChildForm(new Forms.HistoriqueDeTransaction());
         }
+
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            OpenChildForm(new Forms.virementArgent());
+        }
+
 
         private void button4_Click(object sender, EventArgs e)
         {
@@ -154,6 +162,11 @@ namespace dabProject
         private void btn9_Click(object sender, EventArgs e)
         {
             AddNumber(9);
+        }
+
+        private void NumberPanel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

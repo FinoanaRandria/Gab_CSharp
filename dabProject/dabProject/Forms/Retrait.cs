@@ -47,7 +47,7 @@ namespace dabProject.Forms
                                     AccountId = _temp_account.AccountId
                                 });
                             _context.SaveChanges();
-                            Print_Transaction(_context,_temp_account);
+                            Print_Transaction(_context, _temp_account);
                         }
                         else
                         {
@@ -70,7 +70,7 @@ namespace dabProject.Forms
             }
         }
 
-        private void Print_Transaction(DabDatabaseContext _context,Account _account)
+        private void Print_Transaction(DabDatabaseContext _context, Account _account)
         {
             try
             {
@@ -95,7 +95,7 @@ namespace dabProject.Forms
                 gfx.DrawString(@"CIN : " + _temp_client.Cin, font, XBrushes.Black, new XPoint(30, Y + font.GetHeight() * 2));
                 gfx.DrawString(@"Addresse : " + _temp_client.Adresse, font, XBrushes.Black, new XPoint(30, Y + font.GetHeight() * 3));
                 gfx.DrawString(@"--------------------------------------------------------------", font, XBrushes.Black, new XPoint(30, Y + font.GetHeight() * 4));
-                gfx.DrawString(@"Solde Retire : " + (_temp_transaction.SoldeAvant - _temp_transaction.SoldeApres)+" Ar", font, XBrushes.Black, new XPoint(30, Y + font.GetHeight() * 6));
+                gfx.DrawString(@"Solde Retire : " + (_temp_transaction.SoldeAvant - _temp_transaction.SoldeApres) + " Ar", font, XBrushes.Black, new XPoint(30, Y + font.GetHeight() * 6));
 
 
 
@@ -108,9 +108,9 @@ namespace dabProject.Forms
                 // Ouvrir le PDF généré avec le lecteur PDF par défaut
                 //System.Diagnostics.Process.Start(cheminDuFichier);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                MessageBox.Show(ex.Message,"Nplante",MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Nplante", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

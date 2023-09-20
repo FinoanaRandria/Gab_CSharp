@@ -88,7 +88,7 @@
             // SetDateAceuille
             // 
             SetDateAceuille.AutoSize = true;
-            SetDateAceuille.Location = new Point(532, 9);
+            SetDateAceuille.Location = new Point(505, 9);
             SetDateAceuille.Name = "SetDateAceuille";
             SetDateAceuille.Size = new Size(173, 20);
             SetDateAceuille.TabIndex = 13;
@@ -133,6 +133,6 @@
         private PictureBox pictureBox3;
         private Label SetDateAceuille;
         private PictureBox pictureBox1;
-        public  static TextBox keyInput;
+        public static TextBox keyInput;
     }
 }
